@@ -1,0 +1,146 @@
+.province {
+	stroke: black;
+	stroke-width: 1px;
+}
+
+.southsea {
+	stroke: black;
+	stroke-width: 1px;
+	fill: #ccc;
+}
+
+.valueText {
+	font-family: arial;
+	font-size: 12px;
+	text-anchor: middle;
+}
+.world_path {
+	stroke: black;
+	stroke-width: 1;
+}
+.old_world_path {
+	stroke: black;
+	stroke-width: 1;
+}
+.china_path {
+	stroke: lightgray;
+	stroke-width: 1;
+}
+.country_path {
+	stroke: black;
+	stroke-width: 1;
+}
+.province_path {
+	stroke: black;
+	stroke-width: 1;
+}
+.county_path {
+	stroke: black;
+	stroke-width: 1;
+}
+
+.grid_path{
+	stroke: gray;
+	stroke-width: 1;
+	fill:none;
+	opacity: 0.1;
+}
+.link{
+	stroke: red;
+	stroke-width: 2;
+	fill:none;
+}
+
+
+.overlay {
+	fill: none;
+	pointer-events: all;
+}
+
+#tooltip {
+		position: absolute;
+		width: 100px;
+		height: auto;
+		padding: 10px;
+		background-color: #F08080;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		pointer-events: none;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.labels {
+    font: 8px sans-serif;
+    fill: black;
+    opacity: .5;
+
+    display:none;
+}
+
+.noclicks { pointer-events:none; }
+
+.point {
+	fill:brown;
+	opacity:1; 
+}
+
+
+.arcs {
+  opacity:.2;
+  stroke: gray;
+  stroke-width: 1;
+}
+
+.flyers {
+  stroke-width:1;
+  opacity: 1;
+  stroke: red; 
+}
+
+.arc, .flyer {
+  stroke-linejoin: round;
+  fill:none;
+}
+
+
+.oceans {
+  fill:#0066cc;
+}
+
+.ocean {
+  fill:#0066cc;
+}
+.statusText{
+		position: absolute;
+		width: 200px;
+		height: 20px;
+		padding: 10px;
+}
+.statusText1{
+		position: absolute;
+		width: 200px;
+		height: 20px;
+		padding: 10px;
+		background-color: #F08080;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+		-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+		pointer-events: none;
+}
