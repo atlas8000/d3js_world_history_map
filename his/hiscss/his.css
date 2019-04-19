@@ -1,0 +1,14 @@
+.edit_kingdom_path {
+	stroke: gray;
+	stroke-width: 1;
+}
+
+.edit_cap_path {
+	stroke: gray;
+	stroke-width: 1;
+}
+
+.cap_title {
+	font-color: red;
+	stroke-width: 1;
+}
