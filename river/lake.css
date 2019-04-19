@@ -1,0 +1,10 @@
+.lakes {
+  stroke-width:1;
+  stroke: blue; 
+}
+
+.lake {
+  stroke-linejoin: round;
+  opacity: 0.2;
+  fill:blue;
+}
